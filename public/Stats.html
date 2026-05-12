@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BL STATS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/Assets/favicon.ico" type="image/x-icon">
+
+
+     <!-- update the version number as needed -->
+     <script defer src="/__/firebase/10.12.3/firebase-app-compat.js"></script>
+     <!-- include only the Firebase features as you need -->
+     <script defer src="/__/firebase/10.12.3/firebase-auth-compat.js"></script>
+     <script defer src="/__/firebase/10.12.3/firebase-database-compat.js"></script>
+     <script defer src="/__/firebase/10.12.3/firebase-firestore-compat.js"></script>
+     <script defer src="/__/firebase/10.12.3/firebase-functions-compat.js"></script>
+     <script defer src="/__/firebase/10.12.3/firebase-messaging-compat.js"></script>
+     <script defer src="/__/firebase/10.12.3/firebase-storage-compat.js"></script>
+     <script defer src="/__/firebase/10.12.3/firebase-analytics-compat.js"></script>
+     <script defer src="/__/firebase/10.12.3/firebase-remote-config-compat.js"></script>
+     <script defer src="/__/firebase/10.12.3/firebase-performance-compat.js"></script>
+     <!-- 
+       initialize the SDK after all desired features are loaded, set useEmulator to false
+       to avoid connecting the SDK to running emulators.
+     -->
+     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+</head>
+<body>
+    
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="Upcoming.html">Upcoming</a></li>
+            <li><a href="Materials.html">Materials</a></li>
+            <li><a href="#">STATS</a></li>
+            <li><a href="Ressouces.html">Ressouces</a></li>
+        </ul>
+    </div>
+            <button onclick="resetAllCheckboxes()" style="color: blueviolet; margin-left: 80%;">Reset ALL boxes</button>
+            <h1>AM</h1>
+
+            <div class="checkbox-grid" id="checkboxGrid"></div>
+            <div class="counter" id="amCounter"></div>
+
+            <h1>PM</h1>
+
+            <div class="checkbox-grid" id="checkboxGridPM"></div>
+            <div class="counter" id="pmCounter"></div>
+   
+
+
+    <a href="https://brilliantlabs.typeform.com/to/kP791jZi" target="_blank" style="font-size: 40px; text-decoration: none; color: red;">Submit STATS HERE</a>
+
+
+    <script src="stat.js" ></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+
+body{
+    margin: 0px;
+}
+.nav{
+    background-color: rgb(199, 164, 231);
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(115, 115, 233);
+    margin: 0 20px;
+    
+    font-size: 40px;
+}
+.nav a:hover{
+    color: white;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.event {
+    
+}
+.date{
+    color: brown;
+}
+.time{
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+  .checkbox-column {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+  }
+ .checkbox-column li{
+    margin: 10px;
+ }
+ .counter{
+    font-size: 30px; 
+    margin-bottom: 10%;
+    color: magenta;
+ }
+ .content {
+    padding: 100px 20px; /* Adjust padding to accommodate fixed navbar */
+}
+@media screen and (max-width: 600px) {
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav a {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .login-button {
+        margin-left: 0;
+    }
+}
+#todo-list{
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+}
+.activs{
+    list-style: none;
+    
+}
+.activs li{
+    margin-bottom: 10px;
+}
+.activs a{
+    text-decoration: none;
+    font-size: 25px;
+    color: blueviolet;
+}
+.activs a:hover{
+    color: blue;
+}
+.about{
+
+    text-align: center;
+}
